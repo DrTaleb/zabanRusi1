@@ -1,0 +1,104 @@
+.parent {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+.title-parent {
+    overflow: hidden;
+    position: relative;
+}
+
+.main-title- {
+    padding-left: 5px;
+    border-right: #43596e 4px solid;
+    padding-right: 10px;
+    margin-right: 3px;
+    opacity: 70%;
+}
+
+.main-title-::after {
+    content: "";
+    position: absolute;
+    opacity: 20%;
+    width: 100%;
+    height: 20px;
+    border-bottom: #000000 2px solid;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.course-details {
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+
+.teacher-img {
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+}
+
+.teacher-img-overlay {
+    border-top: 2px solid #6c757d;
+    margin-top: -75px;
+    z-index: -1;
+}
+
+.teacher-description {
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+
+.course-description-main-div {
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+.obligations{
+    border-right: #66A523 4px solid;
+    margin-top: 7px;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+.prerequisite{
+    border-right: #ffcd39 4px solid;
+    margin-top: 7px;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+.video-list-item{
+    transition: 0.1s linear;
+    border: 1px #bfd1ec solid;
+    padding: 10px 10px;
+    border-radius: 9px;
+    margin: 3px 0;
+}
+.video-list-item:hover,
+.video-list-item:active
+{
+    transform: scale(1.05);
+    transition: 0.1s linear;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+.video-item-icon:active,
+.video-item-icon:hover{
+    transform: scale(1.5);
+    transition: 0.1s linear;
+}
+.share-course{
+   background: #FFFFFF;
+    border-radius: 9px;
+}
+.share-icons{
+    font-size: 30px;
+    margin-right: 70px;
+}
+.course-tags{
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+.tags{
+    font-size: 15px;
+}
